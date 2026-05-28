@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "dev": "tsx index.js",
+    "dev": "tsx index.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,19 @@
   },
   "type": "module",
   "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/pg": "^8.20.0",
     "tsx": "^4.22.3",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@langchain/classic": "^1.0.34",
+    "@langchain/community": "^1.1.28",
+    "@langchain/openai": "^1.4.7",
+    "@langchain/textsplitters": "^1.0.1",
+    "langchain": "^1.4.2",
+    "pdf-parse": "^2.4.5",
+    "pg": "^8.21.0",
+    "ts-command-line-args": "^2.5.1"
   }
 }
