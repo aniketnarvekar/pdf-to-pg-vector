@@ -28,11 +28,13 @@
   "dependencies": {
     "@langchain/classic": "^1.0.34",
     "@langchain/community": "^1.1.28",
-    "@langchain/openai": "^1.4.7",
+    "@langchain/openai": "^1.5.1",
     "@langchain/textsplitters": "^1.0.1",
+    "effect": "^3.21.4",
     "langchain": "^1.4.2",
     "pdf-parse": "^2.4.5",
     "pg": "^8.21.0",
-    "ts-command-line-args": "^2.5.1"
+    "ts-command-line-args": "^2.5.1",
+    "winston": "^3.19.0"
   }
 }
